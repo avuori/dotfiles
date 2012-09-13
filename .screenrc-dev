@@ -1,0 +1,13 @@
+caption always '%{= dg} %=%?%{d}%-w%?%{G}(%{d}%n %t%? {%u} %?%{G})%{d}%?%+w%?%='
+
+screen -fn -t bash
+screen -fn -t compile
+screen -fn -t frontend
+screen -fn -t backend
+
+screen -fn -t web-node -L "$HOME"/devscripts/start-webnode.sh
+screen -fn -t log-server -L "$HOME"/devscripts/start-log-server.sh
+screen -fn -t selenium-hub -L "$HOME"/devscripts/start-seleniumhub.sh
+screen -fn -t sandbox-runner -L "$HOME"/devscripts/attach-to-sandbox.sh
+screen -fn -t sandbox-dev -L "$HOME"/devscripts/attach-to-sandbox-shell.sh
+
