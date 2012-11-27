@@ -28,6 +28,9 @@ map <leader>q <C-w>q
 
 set ruler
 
+set list
+set listchars=tab:▸\ ,extends:❯,precedes:❮,trail:.,nbsp:.
+
 call pathogen#infect()
 syntax on
 filetype plugin indent on
