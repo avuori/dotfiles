@@ -1,0 +1,26 @@
+[ui]
+username=Arto Vuori <arto@usetrace.com>
+
+[pager]
+pager = LESS=FRX less
+
+[extensions]
+hgext.bookmarks =
+hgext.churn =
+hgext.color =
+hgext.convert=
+hgext.fetch =
+hgext.graphlog =
+hgext.hgk =
+hgext.mq =
+hgext.pager =
+hgext.parentrevspec =
+hgext.progress =
+hgext.record =
+hgext.purge =
+
+#git =
+#hgattic = ~/.hgrc.d/hgattic/attic.py
+#hgsubversion = ~/.hgrc.d/hgsubversion/hgsubversion
+#localbranch = ~/.hgrc.d/localbranch/localbranch.py
+
