@@ -1,6 +1,8 @@
 " avuori .vimrc
 let mapleader = ","
 
+set background=dark
+
 vmap <leader>c <esc>:'<,'>:CoffeeCompile<CR>
 map <leader>c :CoffeeCompile<CR>
 let coffee_make_options = '--bare --output ~/tmp/coffeecompiles/'.expand("%:h")
